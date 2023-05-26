@@ -20,7 +20,7 @@ $contactForm.submit(function(event) {
   var contact = $("#contact").val();
   var message = $("#message").val();
 
-  redirect('mailto:omelniz@siberian.io?subject=Hello siberian&body=' + message + '%0D%0D' + name + '%0D' + contact)
+  redirect('mailto:dev@omelnizapps.io?subject=Hello &body=' + message + '%0D%0D' + name + '%0D' + contact)
 });
 
 function scrollToAnchor(anchor, speed) {

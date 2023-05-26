@@ -1,16 +1,14 @@
 {
   "intro": {
-    "title": "We are a group of highly qualified developers that perform technical projects on a wide range of scale and difficulty.",
+    "title": "We are a group of highly qualified developers that perform technical projects on a wide range of scale and difficulty",
     "why": {
-      "title": "Why Siberian?",
-      "desc": "Siberian, LLC has successfully delivered software products, apps, and solutions to its clients using a proven agile/scrum develop-ment process combined with an advanced group of software engineers."
+      "title": "Why omelnizapps?",
+      "desc": "We have successfully delivered software products, apps, and solutions to its clients using a proven agile/scrum develop-ment process combined with an advanced group of software engineers."
     },
     "clients": {
       "title": "Trusted by",
       "list": [
-        {"title": "Bloom Nation", "logo": "/images/clients/bloomNation.png", "src": "http://www.bloomnation.com/"},
-        {"title": "American Idol", "logo": "/images/clients/americanIdol.png", "src": "http://americanidol.com/"},
-        {"title": "Arnette", "logo": "/images/clients/arnette.png", "src": "https://www.arnette.com/"}
+        {"title": "Fillpoint", "logo": "/images/clients/fillpoint.png", "src": "https://apps.apple.com/ru/app/fillpoint/id6443437123"}
       ]
     },
     "offer": [

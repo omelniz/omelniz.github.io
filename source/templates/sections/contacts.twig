@@ -8,8 +8,7 @@
       <div class="contacts__secondary">
         <div class="contacts__details">
           <h4>Contacts</h4>
-          <p>{{ contacts.address }}, {{ contacts.region }} {{ contacts.zip }}, {{ contacts.country }},</p>
-          <p>{{ contacts.phone }}, <a href="{{ contacts.email }}" title="Contact us">{{ contacts.email }}</a></p>
+          <p>{{ contacts.address }}, {{ contacts.region }} {{ contacts.zip }}, {{ contacts.country }}, <a href="mailto:{{ contacts.email }}" title="Contact us">{{ contacts.email }}</a></p>
           <ul class="contacts__socialLinks">
             {% for item in contacts.socialLinks %}
               <li>

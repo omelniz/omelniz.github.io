@@ -6,7 +6,7 @@
   "scripts": {
     "watch": "gulp watch",
     "server": "gulp server",
-    "build": "gulp build"
+    "build": "gulp build",
     "deploy": "npx gh-pages -d public"
   },
   "dependencies": {},
