@@ -1,0 +1,128 @@
+.development {
+  padding: 0px 10px;
+  margin-bottom: 32px;
+}
+
+.development__title {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: bold;
+  font-size: 36px;
+  color: #101626;
+  letter-spacing: -1.12px;
+  line-height: 48px;
+  margin-bottom: 19px;
+}
+
+.development__desc {
+  font-family: 'Spectral', serif;
+  font-size: 20px;
+  color: rgba(132,135,141,0.80);
+  letter-spacing: -0.83px;
+  line-height: 28px;
+
+  p {
+    margin-bottom: 28px;
+  }
+}
+
+.development__feature {
+  font-family: 'Work Sans', sans-serif;
+  font-size: 20px;
+  color: #101626;
+  letter-spacing: -0.83px;
+  line-height: 28px;
+  margin-bottom: 28px;
+  position: relative;
+
+  &::before {
+    position: absolute;
+    z-index: -1;
+    top: -6px;
+    left: -16px;
+    background-color: #449AFF;
+    content: "";
+    display: block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+  }
+
+  &.development__feature--frontend::before {
+    background-color: #449AFF;
+  }
+
+  &.development__feature--backend::before {
+    background-color: #29C186;
+  }
+
+  &.development__feature--qa::before {
+    background-color: #FB8469;
+  }
+
+  h3 {
+    font-weight: bold;
+  }
+
+  ul {
+    margin-top: 28px;
+    list-style: disc inside;
+  }
+}
+
+@mixin respond-to $breakpoint-mobile-hd {
+  .development {
+    padding: 0px 20px;
+  }
+}
+
+@mixin respond-to $breakpoint-tablet {
+  .development {
+    lost-center: 1160px;
+  }
+
+  .development__title {
+    font-size: 64px;
+    letter-spacing: -2px;
+    line-height: 76px;
+    margin-bottom: 37px;
+  }
+
+  .development__feature,
+  .development__desc {
+    font-size: 24px;
+    letter-spacing: -1px;
+    line-height: 36px;
+  }
+
+  .development__desc {
+    p {
+      margin-bottom: 35px;
+    }
+  }
+
+  .development__inner {
+    lost-flex-container: row;
+  }
+
+  .development__column {
+    lost-column: 1/3 3 40px flex;
+
+    &.development__column--desc {
+      order: -1;
+      margin-right: 40px;
+    }
+
+    &.development__column--middle {
+      margin-right: 0px;
+    }
+  }
+
+  .development__feature {
+    margin-bottom: 35px;
+
+    &::before {
+      top: -2px;
+      left: -11px;
+    }
+  }
+}

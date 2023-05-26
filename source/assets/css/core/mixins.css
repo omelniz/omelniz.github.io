@@ -1,0 +1,5 @@
+@define-mixin respond-to $breakpoint-name {
+  @media screen and (min-width: $breakpoint-name) {
+      @mixin-content;
+  }
+}

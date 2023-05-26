@@ -1,0 +1,34 @@
+{
+  "development": {
+    "title": "Development",
+    "desc": [
+      "Our developer`s office is based in Saint-Petersburg, Russia which helps provide best local developers by competitive price.",
+      "We see the world through the prism of structured websites and logical components, always striving to deliver this vision through our advanced code and designs.",
+      "We pride ourselves on writing clean, maintainable, well thought out code that will scale."
+    ],
+    "features": [
+      {
+        "name": "frontend",
+        "title": "Front End Development",
+        "desc": "The product we deliver is user-friendly, especially on mobile devices.",
+        "details": []
+      },
+      {
+        "name": "backend",
+        "title": "Back End Development",
+        "desc": "We are adept at dealing with business rules, special requirements and regulations, and the responsibilities that come with these parameters due to years of experience in the e-commerce field.",
+        "details": [
+          "Traditional web-sites",
+          "Rest API",
+          "E-commers"
+        ]
+      },
+      {
+        "name": "qa",
+        "title": "Quality Assurance",
+        "desc": "One of the most important aspects of running a successful e-commerce site is reliability. We employ a wide arrange of techniques to ensure that the website we build is stable. Among the techniques we use are: load testing, auto testing and per request unit testing.",
+        "details": []
+      }
+    ]
+  }
+}

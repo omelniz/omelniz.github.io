@@ -1,0 +1,98 @@
+.form__row {
+  margin-bottom: 20px;
+}
+
+.text-field {
+  background-color: #FFFFFF;
+  border-radius: 6px;
+  font-family: 'Work Sans', sans-serif;
+  font-size: 16px;
+  letter-spacing: -0.5px;
+  line-height: 24px;
+  padding: 5px 10px;
+
+  label {
+    display: block;
+    color: #A7A9B1;
+    margin-bottom: 2px;
+    cursor: pointer;
+  }
+
+  input,
+  textarea {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    background: none;
+    margin: 0px;
+    padding: 0px;
+    box-shadow: none;
+    box-sizing: border-box;
+    width: 100%;
+    resize: none;
+  }
+}
+
+.parsley-error {
+  position: relative;
+
+  label {
+    color: #F23E16;
+  }
+
+  .parsley-errors-list {
+    position: absolute;
+    top: 100%;
+    left: 0px;
+    z-index: 1;
+    margin-top: 4px;
+    background: #E5E6EC;
+    box-shadow: 0 1px 3px 0 rgba(0,0,0,0.20);
+    border-radius: 4px;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 16px;
+    color: #101626;
+    line-height: 24px;
+    padding: 8px 10px;
+  }
+}
+
+.btn {
+  border: none;
+  background: none;
+  outline: none;
+  margin: 0px;
+  padding: 0px;
+  cursor: pointer;
+}
+
+.btn--primary {
+  padding: 16px 24px 20px 24px;
+  background: #101626;
+  border-radius: 6px;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+  color: #FFFFFF;
+  letter-spacing: -1px;
+  line-height: 24px;
+}
+
+.btn--outline {
+  padding: 8px 20px 11px 20px;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+  color: #101626;
+  letter-spacing: -0.5px;
+  line-height: 24px;
+  border: 1px solid rgba(16, 22, 38, .2);
+  border-radius: 4px;
+  transition: border 300ms ease;
+  text-decoration: none;
+
+  &:hover {
+    border: 1px solid rgba(16, 22, 38, 1);
+  }
+}

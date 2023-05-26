@@ -1,0 +1,15 @@
+.footer {
+  font-family: 'Work Sans', sans-serif;
+  font-size: 16px;
+  color: #101626;
+  letter-spacing: -0.5px;
+  line-height: 20px;
+  padding: 0px 10px 10px 10px;
+}
+
+@mixin respond-to $breakpoint-mobile-hd {
+  .footer {
+    padding: 0px 20px 20px 20px;
+    lost-center: 1240px;
+  }
+}

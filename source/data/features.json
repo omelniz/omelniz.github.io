@@ -1,0 +1,26 @@
+{
+  "features": {
+    "list": [
+      {
+        "title": "Communication.",
+        "desc": "Our management office is based in Los Angeles, CA which helps in speeding up communication.",
+        "icon": "/images/features/communication.svg"
+      },
+      {
+        "title": "Time zones are not a problem.",
+        "desc": "With contact point provided in all time zones you’ll never find yourself waiting on your request.",
+        "icon": "/images/features/timeZones.svg"
+      },
+      {
+        "title": "Direct access to developers.",
+        "desc": "You can see what’s going on under the hood at all times. Best results come from collaborating directly with our developers.",
+        "icon": "/images/features/developers.svg"
+      },
+      {
+        "title": "There is no middleman who gets in the way of your communication with the developer.",
+        "desc": "There is nothing between you and our technical experts.",
+        "icon": "/images/features/noMiddleman.svg"
+      }
+    ]
+  }
+}

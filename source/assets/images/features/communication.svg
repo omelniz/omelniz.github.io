@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="120px" height="120px" viewBox="0 0 120 120" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 2</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#F6F6F6" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="home" transform="translate(-60.000000, -1140.000000)">
+            <g id="communication" transform="translate(0.000000, 1080.000000)">
+                <g id="Group-2" transform="translate(60.000000, 60.000000)">
+                    <rect id="Rectangle-5" fill="#FFFFFF" x="0" y="0" width="120" height="120"></rect>
+                    <circle id="Oval-5" fill="url(#linearGradient-1)" cx="60" cy="60" r="40"></circle>
+                    <polygon id="Path-2" stroke="#101626" stroke-width="2" points="21 12 55 12 55 44 100 80 100 90 97 90 97 100 102 100 102 104 97 108 75 108 75 101 64 92 53 92 51 85 44 80 44 76 36 71 36 63 38 60 34 57 34 52 29 52 21 40 21 31 18 25 21 25"></polygon>
+                    <circle id="Oval-4" fill="#29C186" opacity="0.251674107" cx="69" cy="96" r="12"></circle>
+                    <circle id="Oval-4" fill="#29C186" opacity="0.251674107" cx="69" cy="96" r="8"></circle>
+                    <circle id="Oval-4" fill="#29C186" cx="69" cy="96" r="4"></circle>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,21 @@
+<section id="development" class="development">
+  <h2 class="development__title">
+    {{ development.title }}
+  </h2>
+  <div class="development__inner">
+    <div class="development__column">
+      {% include "developmentItem.twig" with development.features[0] %}
+      {% include "developmentItem.twig" with development.features[1] %}
+    </div>
+    <div class="development__column development__column--middle">
+      {% include "developmentItem.twig" with development.features[2] %}
+    </div>
+    <div class="development__column development__column--desc">
+      <div class="development__desc">
+        {% for item in development.desc %}
+          <p>{{ item }}</p>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</section>

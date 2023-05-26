@@ -1,0 +1,9 @@
+<section class="features">
+  {% for item in features.list %}
+    <div class="features__item">
+      <img src="{{ item.icon }}" alt="{{ item.title }}">
+      <h3>{{ item.title }}</h3>
+      <p>{{ item.desc }}</p>
+    </div>
+  {% endfor %}
+</section>

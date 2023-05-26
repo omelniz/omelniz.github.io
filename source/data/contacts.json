@@ -1,0 +1,24 @@
+{
+  "contacts": {
+    "address": "4151 Vía Marina",
+    "region": "CA",
+    "zip": "90292",
+    "country": "USA",
+    "phone": "+1 323 863-3896",
+    "email": "dev@siberian.io",
+    "socialLinks": [
+      {"name": "medium", "url": "https://medium.com/"},
+      {"name": "facebook", "url": "https://www.facebook.com/"},
+      {"name": "linkedin", "url": "https://www.linkedin.com/"}
+    ],
+    "form": {
+      "title": "Work with us",
+      "desc": "We would like to invite you to have a short call to briefly discuss our opportunities to you have a vision of how to utilize our resources.",
+      "post": {
+        "title": "How to create a module in Magento",
+        "tizer": "In this post I will show how a real world module for Magento 2 is made.",
+        "url": "https://medium.com/"
+      }
+    }
+  }
+}

@@ -1,0 +1,156 @@
+.intro {
+  margin-bottom: 30px;
+  position: relative;
+}
+
+.intro__inner {
+  padding: 0px 10px 41px 10px;
+}
+
+#intro-animation {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  bottom: 0px;
+  right: 0px;
+  background-color: #101626;
+  z-index: -1;
+}
+
+.intro__title {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: bold;
+  font-size: 36px;
+  color: #FFFFFF;
+  letter-spacing: -1.12px;
+  text-align: center;
+  line-height: 48px;
+  margin-bottom: 31px;
+}
+
+.intro__why {
+  font-family: 'Spectral', serif;
+  font-size: 20px;
+  color: #FFFFFF;
+  letter-spacing: -0.83px;
+  line-height: 26px;
+  margin-bottom: 36px;
+
+  h2,
+  p {
+    display: inline;
+    vertical-align: middle;
+  }
+
+  p {
+    color: #A7A9B1;
+  }
+}
+
+.intro__offer {
+  font-family: 'Work Sans', sans-serif;
+  font-size: 20px;
+  color: #FFFFFF;
+  letter-spacing: -0.83px;
+  line-height: 28px;
+  margin-bottom: 36px;
+
+  p {
+    margin-bottom: 28px;
+  }
+}
+
+.intro__clients {
+  h2 {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: #FFFFFF;
+    letter-spacing: -0.83px;
+    line-height: 28px;
+    margin-bottom: 13px;
+  }
+
+  ul {
+    display: flex;
+    justify-content: space-between;
+    max-width: 340px;
+  }
+}
+
+@mixin respond-to $breakpoint-mobile-hd {
+  .intro__title {
+    font-size: 44px;
+    letter-spacing: -2px;
+    line-height: 56px;
+  }
+
+  .intro__inner {
+    padding: 0px 20px 41px 20px;
+  }
+
+  .intro__why,
+  .intro__offer {
+    font-size: 24px;
+    letter-spacing: -1px;
+  }
+}
+
+@mixin respond-to $breakpoint-tablet {
+  .intro {
+    padding: 0px 0px 65px 0px;
+    margin-bottom: 60px;
+  }
+
+  .intro__title {
+    font-size: 64px;
+    letter-spacing: -2px;
+    line-height: 76px;
+    margin-bottom: 75px;
+  }
+
+  .intro__why {
+    line-height: 34px;
+    margin-bottom: 76px;
+  }
+
+  .intro__offer {
+    line-height: 36px;
+  }
+
+  .intro__inner {
+    max-width: 1160px;
+    margin: 0px auto;
+  }
+
+  .intro__content {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .intro__main {
+    width: 340px;
+    margin-right: 60px;
+    order: -1;
+  }
+
+  .intro__offer {
+    max-width: 540px;
+    margin-right: 20px;
+    margin-bottom: 0px;
+
+    p {
+      margin-bottom: 36px;
+
+      &:last-child {
+        margin-bottom: 0px;
+      }
+    }
+  }
+
+  .intro__clients {
+    h2 {
+      font-size: 24px;
+    }
+  }
+}

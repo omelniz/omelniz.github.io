@@ -1,0 +1,61 @@
+.features {
+  padding: 0px 10px;
+}
+
+.features__item {
+  font-family: 'Work Sans', sans-serif;
+  font-size: 20px;
+  letter-spacing: -0.83px;
+  line-height: 28px;
+  margin-bottom: 30px;
+
+  img {
+    display: block;
+    width: 60px;
+    max-width: 100%;
+  }
+
+  h3,
+  p {
+    display: inline;
+    vertical-align: top;
+  }
+
+  h3 {
+    color: #101626;
+  }
+
+  p {
+    color: #84878D;
+  }
+}
+
+@mixin respond-to $breakpoint-mobile-hd {
+  .features {
+    lost-center: 1160px;
+    padding: 0px 20px;
+    lost-flex-container: row;
+  }
+
+  .features__item {
+    lost-column: 1/2 2 40px flex;
+  }
+}
+
+@mixin respond-to $breakpoint-tablet {
+  .features {
+    margin-bottom: 116px;
+  }
+
+  .features__item {
+    lost-column: 1/4 4 40px flex;
+    font-size: 24px;
+    letter-spacing: -1px;
+    line-height: 36px;
+
+    img {
+      width: auto;
+      margin-bottom: 22px;
+    }
+  }
+}

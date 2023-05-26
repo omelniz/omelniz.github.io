@@ -1,0 +1,22 @@
+{
+  "intro": {
+    "title": "We are a group of highly qualified developers that perform technical projects on a wide range of scale and difficulty.",
+    "why": {
+      "title": "Why Siberian?",
+      "desc": "Siberian, LLC has successfully delivered software products, apps, and solutions to its clients using a proven agile/scrum develop-ment process combined with an advanced group of software engineers."
+    },
+    "clients": {
+      "title": "Trusted by",
+      "list": [
+        {"title": "Bloom Nation", "logo": "/images/clients/bloomNation.png", "src": "http://www.bloomnation.com/"},
+        {"title": "American Idol", "logo": "/images/clients/americanIdol.png", "src": "http://americanidol.com/"},
+        {"title": "Arnette", "logo": "/images/clients/arnette.png", "src": "https://www.arnette.com/"}
+      ]
+    },
+    "offer": [
+      "We can offer range of service starting with individual dev resources and up to a whole team consisting of back end, front end, QA and optionally project manager.",
+      "Our experience at working with medium and large businesses is what allows us to be a reliable task force for our clients.",
+      "Also we are adept at dealing with business rules, special requirements and regulations, and the responsibilities that come with these parameters due to years of experience in the e-commerce field."
+    ]
+  }
+}

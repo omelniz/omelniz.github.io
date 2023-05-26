@@ -1,0 +1,8 @@
+<section class="technologies">
+  {% for item in technologies.list %}
+    <div class="technologies__item">
+      <h3>{{ item.title }}</h3>
+      <p>{{ item.desc }}</p>
+    </div>
+  {% endfor %}
+</section>

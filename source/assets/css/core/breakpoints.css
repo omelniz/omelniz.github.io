@@ -1,0 +1,8 @@
+$breakpoint-mobile:     320px;
+$breakpoint-landscape:  480px;
+$breakpoint-mobile-hd:  640px;
+$breakpoint-phablet:    768px;
+$breakpoint-tablet:     960px;
+$breakpoint-laptop:     1024px;
+$breakpoint-desktop:    1152px;
+$breakpoint-desktop-hd: 1280px;

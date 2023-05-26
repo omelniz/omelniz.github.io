@@ -1,0 +1,11 @@
+<div class="development__feature development__feature--{{ name }}">
+  <h3>{{ title }}</h3>
+  <p>{{ desc }}</p>
+  {% if details|length > 0 %}
+    <ul>
+      {% for item in details %}
+        <li>{{ item }}</li>
+      {% endfor %}
+    </ul>
+  {% endif %}
+</div>

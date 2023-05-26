@@ -1,0 +1,18 @@
+{
+  "technologies": {
+    "list": [
+      {
+        "title": "Technologies which we used in",
+        "desc": "PHP, JavaScript, HTML, CSS, Magento, Laravel, Zend Framework, jQuery, MySQL, MongoDB, Php, Symfony, NodeJs, Express, DDD, TDD, ReactJs, Redux, Postcss/Css modules."
+      },
+      {
+        "title": "Integration Expertise",
+        "desc": "Need to integrate your site with Facebook? Twitter? Paypal? That's too easy. Your payment gateway? Warehouse? Other technology vendor? We’ve got you covered!"
+      },
+      {
+        "title": "Test Coverage",
+        "desc": "One of the most important aspects of running a successful e-commerce site is reliability. We employ a wide arrange of techniques to ensure that the website we build is stable. Among the techniques we use are: load testing, auto testing and per request unit testing."
+      }
+    ]
+  }
+}

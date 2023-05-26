@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="118px" height="118px" viewBox="0 0 118 118" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 2 Copy 3</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#F6F6F6" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="home" transform="translate(-961.000000, -1141.000000)">
+            <g id="communication" transform="translate(0.000000, 1080.000000)">
+                <rect id="Rectangle-4" fill-opacity="0" fill="#FFFFFF" x="0" y="0" width="1280" height="520"></rect>
+                <g id="Group-2-Copy-3" transform="translate(960.000000, 60.000000)">
+                    <rect id="Rectangle-5" fill-opacity="0" fill="#FFFFFF" x="0" y="0" width="120" height="120"></rect>
+                    <circle id="Oval-5" fill="url(#linearGradient-1)" cx="60" cy="60" r="40"></circle>
+                    <path d="M60,28 C80,28 97.3333333,38.6666667 112,60 C97.3333333,81.3333333 80,92 60,92 C40,92 22.6666667,81.3333333 8,60 C22.6666667,38.6666667 40,28 60,28 Z" id="Combined-Shape-Copy-2" stroke="#101626" stroke-width="2" fill-rule="nonzero"></path>
+                    <path d="M60,80 C71.045695,80 80,71.045695 80,60 C80,48.954305 71.045695,40 60,40 C48.954305,40 40,48.954305 40,60 C40,71.045695 48.954305,80 60,80 Z" id="Combined-Shape-Copy" stroke="#101626" stroke-width="2" fill-rule="nonzero"></path>
+                    <path d="M60,70 C65.5228475,70 70,65.5228475 70,60 C70,54.4771525 65.5228475,50 60,50 C54.4771525,50 50,54.4771525 50,60 C50,65.5228475 54.4771525,70 60,70 Z" id="Combined-Shape" stroke="#29C186" stroke-width="2" fill-rule="nonzero"></path>
+                    <path d="M2,118 L118,2" id="Path-4" stroke="#29C186" stroke-width="2"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
