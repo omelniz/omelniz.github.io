@@ -1,6 +1,6 @@
 ![Preview](https://github.com/omelniz/omelnizapps/blob/master/preview.png)
 
-# Siberian.io
+# omelnizapps.io
 
 ## Installation
 
