@@ -1,4 +1,4 @@
-![Preview](https://github.com/omelniz/omelnizapps/blob/master/preview.png)
+![Preview](https://github.com/omelniz/omelniz.github.io/blob/main/preview.png)
 
 # omelnizapps.io
 
